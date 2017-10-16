@@ -23,7 +23,7 @@ var inspect = _.partialRight(util.inspect, {depth: 10});
 
 var apiCalls = ["api.test", "auth.test", "channels.archive", "channels.create", "channels.history", "channels.info",
                 "channels.invite", "channels.join", "channels.kick", "channels.leave", "channels.list", "channels.mark",
-                "channels.rename", "channels.setPurpose", "channels.setTopic", "channels.unarchive", "chat.delete",
+                "channels.rename", "channels.setPurpose", "channels.setTopic", "channels.unarchive", "chat.delete", "chat.meMessage",
                 "chat.postMessage", "chat.update", "emoji.list", "files.delete", "files.info", "groups.archive",
                 "groups.close", "groups.create", "groups.createChild", "groups.history", "groups.info", "groups.invite",
                 "groups.kick", "groups.leave", "groups.list", "groups.mark", "groups.open", "groups.rename",
